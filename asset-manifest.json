@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TheGoodGones2/static/css/main.bd9fd924.css",
-    "main.js": "/TheGoodGones2/static/js/main.54b48821.js",
+    "main.js": "/TheGoodGones2/static/js/main.b99ae269.js",
     "static/media/icon-gg-full-white.png": "/TheGoodGones2/static/media/icon-gg-full-white.af478ea8a62b01bde6a0.png",
     "static/media/backgroundClassParameter-3.png": "/TheGoodGones2/static/media/backgroundClassParameter-3.878ce91a49a4f658922f.png",
     "static/media/backgroundClassFonctionnality-3.png": "/TheGoodGones2/static/media/backgroundClassFonctionnality-3.b2bc1b1717a240cb2dac.png",
@@ -15,10 +15,10 @@
     "static/media/slide-4.png": "/TheGoodGones2/static/media/slide-4.4912d4201e87f11b9142.png",
     "index.html": "/TheGoodGones2/index.html",
     "main.bd9fd924.css.map": "/TheGoodGones2/static/css/main.bd9fd924.css.map",
-    "main.54b48821.js.map": "/TheGoodGones2/static/js/main.54b48821.js.map"
+    "main.b99ae269.js.map": "/TheGoodGones2/static/js/main.b99ae269.js.map"
   },
   "entrypoints": [
     "static/css/main.bd9fd924.css",
-    "static/js/main.54b48821.js"
+    "static/js/main.b99ae269.js"
   ]
 }
