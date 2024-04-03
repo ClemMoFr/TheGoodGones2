@@ -54,7 +54,6 @@ const EtudesGenerales = () => {
         setEtudesGenerales([]);
       }
     });
-
     return () => unsubscribe();
   }, [database, groupSelectorData]);
 
@@ -106,6 +105,8 @@ const EtudesGenerales = () => {
       .catch((error) => {
         console.error("Erreur lors de la mise à jour:", error.message);
       });
+
+    setPopupModifyEtudesGenerales(false);
   };
 
   const [messageDelete, setMessageDelete] = useState(false);

@@ -100,7 +100,7 @@ const PopupModifyEtudesGenerales = ({
         </label>
 
         <button type="button" onClick={handleUpdate}>
-          Modifier
+          Modifier v2
         </button>
       </div>
     </form>
