@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TheGoodGones2/static/css/main.bd9fd924.css",
+    "main.js": "/TheGoodGones2/static/js/main.9dad5d3c.js",
+    "static/media/icon-gg-full-white.png": "/TheGoodGones2/static/media/icon-gg-full-white.af478ea8a62b01bde6a0.png",
+    "static/media/backgroundClassParameter-3.png": "/TheGoodGones2/static/media/backgroundClassParameter-3.878ce91a49a4f658922f.png",
+    "static/media/backgroundClassFonctionnality-3.png": "/TheGoodGones2/static/media/backgroundClassFonctionnality-3.b2bc1b1717a240cb2dac.png",
+    "static/media/backgroundClassParameter-1.png": "/TheGoodGones2/static/media/backgroundClassParameter-1.96a2b812b5f747c37488.png",
+    "static/media/icon-gg-full-red.png": "/TheGoodGones2/static/media/icon-gg-full-red.8d0d34a16694a079a013.png",
+    "static/media/backgroundClassFonctionnality-1.png": "/TheGoodGones2/static/media/backgroundClassFonctionnality-1.332f845e4fb600b67f1c.png",
+    "static/media/backgroundClassFonctionnality-2.png": "/TheGoodGones2/static/media/backgroundClassFonctionnality-2.54e0abe1868c616b0d45.png",
+    "static/media/backgroundClassParameter-2.png": "/TheGoodGones2/static/media/backgroundClassParameter-2.df8fe1d6ef73da697331.png",
+    "static/media/icon-gg-dashboard.png": "/TheGoodGones2/static/media/icon-gg-dashboard.6c327e7f860801bd3862.png",
+    "static/media/slide-3.png": "/TheGoodGones2/static/media/slide-3.2b953bb290d1c319abb9.png",
+    "static/media/slide-4.png": "/TheGoodGones2/static/media/slide-4.4912d4201e87f11b9142.png",
+    "index.html": "/TheGoodGones2/index.html",
+    "main.bd9fd924.css.map": "/TheGoodGones2/static/css/main.bd9fd924.css.map",
+    "main.9dad5d3c.js.map": "/TheGoodGones2/static/js/main.9dad5d3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd9fd924.css",
+    "static/js/main.9dad5d3c.js"
+  ]
+}
