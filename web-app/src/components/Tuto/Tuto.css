@@ -1,0 +1,139 @@
+.mask-rectangle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 150px;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.mask-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-mask-image: radial-gradient(
+    circle 20px at calc(100% - 35px) calc(100% - 37px),
+    transparent 30px,
+    #000 0
+  );
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.704);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.popup-explain-home-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+  width: 70%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.popup-explain-home-page p:nth-child(1) {
+  font-size: 1.2rem;
+}
+
+.popup-explain-home-page p:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.btn-go {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  25% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  75% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+}
+
+.pulse-element-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pulse-element {
+  width: 80px;
+  height: 80px;
+  background-color: #6380e9;
+  animation: pulse 2s infinite;
+  transform-origin: center;
+  border-radius: 30px;
+}
+
+.picto {
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.popup-explain-home-page-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+  width: 70%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.mask-rectangle-parametre {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  width: 340px;
+  height: 80px;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.btn-go-parametre {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  border-radius: 30px;
+  cursor: pointer;
+}

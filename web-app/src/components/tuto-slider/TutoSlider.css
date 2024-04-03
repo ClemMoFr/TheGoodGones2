@@ -1,0 +1,215 @@
+.tutoMainContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupMainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 90vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.topSLiderHelp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+}
+
+.titleSLiderHelp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.descriptionSLiderHelp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.slideSLiderHelp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding: 0px 20px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/icon-gg-full-red.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.titleSLiderHelp p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  width: 70%;
+}
+
+.bulletContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.bullet {
+  height: 10px;
+  background-color: blue;
+  border-radius: 20px;
+  margin: 2px;
+}
+
+.btn-lets-go {
+  width: 100%;
+  background-color: #c6253d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.btn-full-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  aspect-ratio: 1/1;
+  background-color: white;
+  box-shadow: 0px 0px 30px 0px rgba(203, 228, 255, 0.6);
+  border-radius: 50px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  25% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  75% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.pulse-element-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pulse-element {
+  width: 90px;
+  height: 90px;
+  background-color: #6380e9;
+  animation: pulse 2s infinite;
+  transform-origin: center;
+  border-radius: 30px;
+}
+
+.picto {
+  background-color: white;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.slide-3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/slide-3.png);
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.backgroundClassParameter-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/backgroundClassParameter-1.png);
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.backgroundClassParameter-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/backgroundClassParameter-2.png);
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.backgroundClassParameter-3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/backgroundClassParameter-3.png);
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.backgroundClassFonctionnality-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/backgroundClassFonctionnality-1.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.backgroundClassFonctionnality-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/backgroundClassFonctionnality-2.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.backgroundClassFonctionnality-3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/backgroundClassFonctionnality-3.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.slide-4 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/slide-4.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}

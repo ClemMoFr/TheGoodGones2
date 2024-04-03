@@ -1,0 +1,27 @@
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile-4 + label {
+  color: #83adff;
+}
+
+.inputfile-4 + label figure {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #83adff;
+  display: block;
+  padding: 20px;
+  margin: 0 auto 10px;
+}
+
+.inputfile-4 + label svg {
+  width: 100%;
+  height: 100%;
+}

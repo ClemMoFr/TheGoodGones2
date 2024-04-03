@@ -1,0 +1,76 @@
+.popupContactMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fafcff;
+  z-index: 3;
+  padding: 0px 20px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.popupDetailsContactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 100%;
+  border-radius: 20px;
+  background: #fafcff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.popupContactCard p:nth-child(1) {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.popupContactCard p:nth-child(1) span {
+  text-transform: uppercase;
+}
+
+.popupAddContactInputContainer input {
+  height: 50px;
+  border: none;
+  border-radius: 5px !important;
+  background-color: #e7f0ff;
+}
+
+.popupContactContactButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.popupContactContactButtonContainer button {
+  width: 135px;
+  height: 45px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.popupContactContactButtonContainer button:nth-child(1) {
+  border: 3px solid #c6253d;
+  background-color: #c6253d;
+  color: #ffffff;
+}
+.popupContactContactButtonContainer button:nth-child(2) {
+  border: 3px solid #c6253d;
+  background-color: #fafcff;
+  color: #c6253d;
+}

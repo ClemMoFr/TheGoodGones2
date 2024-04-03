@@ -1,0 +1,22 @@
+.navbarMainContainer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iconNavbar {
+  font-size: 2rem;
+}
+
+.activeNavbar {
+  color: #c6253d;
+}
+
+.activeNavbar path {
+  stroke: #c6253d;
+}

@@ -1,0 +1,68 @@
+.popupDetailsActiviteMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #fafcff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0px 30px;
+}
+
+.popupDetailsActiviteActivityName {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 20px auto 0px;
+}
+
+.popupDetailsActiviteSubtitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.popupDetailsActiviteDescription {
+  width: 100%;
+  color: black;
+  font-weight: 400;
+  background-color: #fafcff;
+  text-align: justify;
+  height: 25vh;
+  padding: 5px;
+  overflow-x: hidden;
+  font-family: "poppins";
+}
+
+.popupDetailsActiviteLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.popupDetailsActiviteButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.popupDetailsActiviteButtonContainer button {
+  width: 135px;
+  height: 45px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.popupDetailsActiviteButtonContainer button:nth-child(1) {
+  border: 3px solid #c6253d;
+  background-color: #c6253d;
+  color: #ffffff;
+}
+.popupDetailsActiviteButtonContainer button:nth-child(2) {
+  border: 3px solid #c6253d;
+  background-color: #fafcff;
+  color: #c6253d;
+}

@@ -1,0 +1,58 @@
+.notificationMainContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.notificationMainContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  padding: 30px 0px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(203, 228, 255, 0.6);
+}
+
+.notificationMainContainer form p:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 700;
+  width: 80%;
+  text-align: center;
+}
+
+.notificationMainContainer form label {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 90%;
+  margin: 10px 0px;
+}
+
+.notificationMainContainer form textarea,
+.notificationMainContainer form input {
+  width: 100%;
+}
+
+.notificationMainContainer form button {
+  padding: 10px 12px;
+  background-color: #c6253d;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  display: block;
+  box-sizing: border-box;
+  width: 40%;
+  margin: 20px auto;
+}

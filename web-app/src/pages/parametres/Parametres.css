@@ -1,0 +1,19 @@
+.accountContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 0px 0px 30px 0px rgba(203, 228, 255, 0.6);
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.accountContainer p:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}

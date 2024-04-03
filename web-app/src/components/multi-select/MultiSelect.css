@@ -1,0 +1,108 @@
+.multiSelectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 15px;
+  box-sizing: border-box;
+  height: 50px;
+  overflow-y: scroll;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+
+.multiSelectContainer p {
+  color: #b5d6ff;
+  font-weight: 600;
+}
+
+.multiSelectOptionMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.multiSelectOptionCardOptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 90%;
+  height: 60vh;
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+}
+
+.multiSelectButton {
+  position: absolute;
+  bottom: 80px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ffffff;
+  color: #7bb2f7;
+  border-radius: 30px;
+  border: none;
+}
+
+.multiSelectOptionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.multiSelectOptionContainer input {
+  height: auto;
+}
+
+.multiSelectOptionPastilleContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: aqua;
+  margin: 10px 0px;
+  overflow-x: scroll;
+}
+
+.multiSelectOptionPastille {
+  padding: 10px 20px;
+  background-color: #c6253d;
+  box-sizing: border-box;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.multiSelectOptionContainer .checked {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.btnClosePopuplist {
+  padding: 10px 20px;
+  margin: 0px auto;
+  background-color: #c6253d;
+  width: 30%;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+}

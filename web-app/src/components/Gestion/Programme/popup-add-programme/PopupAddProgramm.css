@@ -1,0 +1,120 @@
+.PopupAddProgrammMainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.PopupAddProgrammMainContainer form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 35vh;
+  margin: 20px auto;
+  overflow-y: scroll;
+}
+
+.PopupAddProgrammMainContainer form .line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.picture {
+  width: 110px;
+  height: 110px;
+  background-color: blue;
+  border-radius: 110px;
+}
+
+.popupAddProgrammSelectContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.popupAddProgrammSelectContainer select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e7f0ff;
+  border: none;
+  font-weight: 700;
+  padding-left: 20px;
+  color: #b5d6ff;
+  border-radius: 40px;
+}
+
+.popupAddProgrammOkBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: #e7f0ff;
+  font-weight: 700;
+  color: #b5d6ff;
+}
+
+.blocTypeSelectMono {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #e7f0ff;
+  padding: 10px;
+}
+
+.blocTypeSelectMono select {
+  width: 100%;
+  border-radius: 60px;
+  background-color: #cfe0fd;
+  color: white;
+}
+
+.blocTypeSelectMono button {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: #cfe0fd;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.blocTypeSelectMonoPastilleContainer {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  display: flex;
+  margin-top: 10px;
+}
+
+.blocTypeSelectMonoPastille {
+  padding: 10px 20px;
+  margin: 2px 5px;
+  background-color: #c6253d;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.PopupAddProgrammAddVehiculeButton {
+  padding: 10px 20px;
+  width: auto;
+  height: auto;
+  background-color: #c6253d;
+  margin: 0px auto;
+  display: block;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.PopupAddProgrammVehiculeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+  height: 180px;
+  margin-top: 20px;
+}

@@ -1,0 +1,73 @@
+.popupModifyPetitsGroupesMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.popupModifyPetitsGroupes {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.popupModifyPetitsGroupes .title {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.popupModifyPetitsGroupesSelectContainer {
+  width: 100%;
+}
+
+.popupModifyPetitsGroupesSelectContainer select {
+  width: 100%;
+  height: 50px;
+  background-color: #e7f0ff;
+  border-radius: 20px;
+  border: none;
+  padding: 0px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #7bb2f7;
+}
+
+.popupModifyPetitsGroupesMonosContainer {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+
+.popupModifyPetitsGroupesMonosName {
+  background-color: #c6253d;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+
+.btnModifyPetitGroup {
+  margin: 0px auto;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  color: white;
+  background-color: #c6253d;
+  border: none;
+  font-size: 1rem;
+}

@@ -1,0 +1,95 @@
+.popupModifyPrieresMainContainer {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupModifyPrieres {
+  flex-direction: column;
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.popupModifyTitle {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+}
+
+.popupModifyPrieresTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.jeunePicture {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+form input {
+  background-color: #e7f0ff;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #b5d6ff;
+}
+
+.inputRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 40%;
+  height: 40vh;
+  background-color: #e7f0ff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #b5d6ff;
+  padding-left: 10px;
+}
+
+.popupModifyPrieresMainContainer button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #c6253d;
+  border: 3px solid #c6253d;
+  color: white;
+  margin: 10px auto;
+  display: block;
+}

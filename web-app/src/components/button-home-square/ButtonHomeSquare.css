@@ -1,0 +1,19 @@
+.buttonHomeSquareMainContainer {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(203, 228, 255, 0.6);
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0px;
+}
+
+.buttonHomeSquareName {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #172f46;
+}

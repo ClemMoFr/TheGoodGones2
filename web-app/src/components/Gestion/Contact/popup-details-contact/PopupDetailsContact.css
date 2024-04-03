@@ -1,0 +1,97 @@
+.popupDetailsContactMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fafcff;
+  z-index: 3;
+}
+
+.popupDetailsContactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 100%;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(203, 228, 255, 0.6);
+  margin-top: 10px;
+}
+
+.popupDetailsContactCard p:nth-child(1) {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.popupDetailsContactCard p:nth-child(1) span {
+  text-transform: uppercase;
+}
+
+.popupDetailsContactParents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(203, 228, 255, 0.6);
+  padding: 5px 0px;
+  margin-bottom: 10px;
+}
+
+.popupDetailsContactParentsName {
+  margin-bottom: 10px;
+  font-size: 1rem !important;
+}
+
+.popupDetailsContactParentsInfos {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.popupDetailsContactChildrensContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: flex-start;
+  overflow-x: scroll;
+}
+
+.popupDetailsContactChildrensContainer span {
+  font-weight: 700;
+}
+
+.popupDetailsContactButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: 20px 0px 10px;
+}
+
+.popupDetailsContactButtonContainer button {
+  width: 135px;
+  height: 45px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.popupDetailsContactButtonContainer button:nth-child(1) {
+  border: 3px solid #c6253d;
+  background-color: #c6253d;
+  color: #ffffff;
+}
+.popupDetailsContactButtonContainer button:nth-child(2) {
+  border: 3px solid #c6253d;
+  background-color: #ffffff;
+  color: #c6253d;
+}
