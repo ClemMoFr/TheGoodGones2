@@ -1,0 +1,25 @@
+# Ignore les répertoires node_modules dans les dossiers web-app et back-end
+web-app/node_modules/
+back-end/node_modules/
+back-end/.env/
+web-app/.env/
+
+# Ignore les fichiers générés par l'éditeur de code Visual Studio Code
+.vscode/
+
+# Ignore les fichiers de sauvegarde temporaires
+*~
+
+# Ignore les fichiers de configuration locale
+.env
+
+# Ignore les fichiers de build ou de compilation
+build/
+dist/
+
+# Ignore les fichiers d'installation des dépendances
+package-lock.json
+yarn.lock
+
+.DS_Store
+

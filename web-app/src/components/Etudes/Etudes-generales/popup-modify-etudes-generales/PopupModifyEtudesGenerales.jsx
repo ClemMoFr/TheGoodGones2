@@ -99,7 +99,9 @@ const PopupModifyEtudesGenerales = ({
           ></textarea>
         </label>
 
-        <button onClick={handleUpdate}>Modifier</button>
+        <button type="button" onClick={handleUpdate}>
+          Modifier
+        </button>
       </div>
     </form>
   );
