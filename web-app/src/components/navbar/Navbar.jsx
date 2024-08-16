@@ -14,7 +14,7 @@ import { useAuth } from "../../firebase/AuthContext";
 const Navbar = () => {
   const location = useLocation();
 
-  const host = "TheGoodGones";
+  const host = "TheGoodGones2";
 
   const isLinkActive = (path) => {
     if (path === `/${host}/`) {
